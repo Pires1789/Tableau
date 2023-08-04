@@ -1,0 +1,4 @@
+DATEPARSE(
+  'dd/MM/yyyy',
+  str([Date]) +'/'+str([Date])+'/'+str([Date])
+)
