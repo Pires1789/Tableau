@@ -1,0 +1,25 @@
+IF
+  DATEPART('month',[dt_periodo]) = 1 THEN 'Jan'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF 
+  DATEPART('month',[dt_periodo]) = 2 then 'Fev'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF
+  DATEPART('month',[dt_periodo]) = 3 then 'Mar'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF
+  DATEPART('month',[dt_periodo]) = 4 then 'Abr'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF
+  DATEPART('month',[dt_periodo]) = 5 then 'Mai'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF
+  DATEPART('month',[dt_periodo]) = 6 then 'Jun'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF
+  DATEPART('month',[dt_periodo]) = 7 then 'Jul'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF
+  DATEPART('month',[dt_periodo]) = 8 then 'Ago'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF
+  DATEPART('month',[dt_periodo]) = 9 then 'Set'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF
+  DATEPART('month',[dt_periodo]) = 10 then 'Out'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSEIF
+  DATEPART('month',[dt_periodo]) = 11 then 'Nov'+"/"+STR(DATEPART('year',[dt_periodo]))
+ELSE
+  'Dez'+"/"+STR(DATEPART('year',[dt_periodo]))
+END
