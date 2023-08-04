@@ -6,7 +6,7 @@ DATE(
 )
 
 // Month - Current - Last Day
-// Primeiro dia do mês (considerando o campo [Date])
+// Último dia do mês (considerando o campo [Date])
 
 DATE(
   DATEADD('day', -1,
