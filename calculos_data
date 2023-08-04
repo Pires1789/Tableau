@@ -1,0 +1,17 @@
+// Month - Current - First Day
+// Primeiro dia do mês (considerando o campo [Date])
+
+DATE(
+  DATETRUNC('month', [Date])
+)
+
+// Month - Current - Last Day
+// Primeiro dia do mês (considerando o campo [Date])
+
+DATE(
+  DATEADD('day', -1,
+    DATEADD('month', 1,     
+      DATETRUNC('month', [Date])
+    )
+  )
+)
