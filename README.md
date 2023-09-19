@@ -7,6 +7,7 @@ A proposta deste repositório é dividir um pouco da minha experiência com a co
 ## Tableau Prep
 - Desenvolvi flows para clientes internos (Marketing, Comercial, Planejamento), auxiliando o Negócio a ser realmente "self-service BI";
 - Atuei em frentes de tunning, reduzindo o tempo de execução de flows em 94% e reduzindo as linhas da tabela em 98%;
+- Integração com Salesforce e Salesforce Marketing Cloud.
 
 ## Tableau Desktop
 - Desenvolvimento de projetos para clientes de E-Commerce, Trade Marketing, times de TI para controle de atividades;
