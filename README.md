@@ -5,9 +5,8 @@ Em minha experiência pude atuar com Tableau Prep e Desktop, além de gerenciar 
 A proposta deste repositório é dividir um pouco da minha experiência com a comunidade e reunir campos calculados que facilitem a análise com o Tableau.
 
 ## Tableau Prep
-- Desenvolvi fluxos de dados para diversos clientes;
-- Atuei em frentes de tunning;
-- Liderei projetos de otimização de bases de cliente, liderando projeto que sumarizou, limpou e permitiu que usuários finais usassem campos calculados menos complexos facilitando a utilização do serviço.
+- Desenvolvi flows para clientes internos (Marketing, Comercial, Planejamento), auxiliando o Negócio a ser realmente "self-service BI";
+- Atuei em frentes de tunning, reduzindo o tempo de execução de flows em 94% e reduzindo as linhas da tabela em 98%;
 
 ## Tableau Desktop
 - Desenvolvimento de projetos para clientes de E-Commerce, Trade Marketing, times de TI para controle de atividades;
