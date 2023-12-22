@@ -1,0 +1,25 @@
+## Retornar flows >> datasources >> dashboards
+
+query flows {
+	flows {
+    name
+    owner {
+      name
+    }
+    projectName
+    outputFields{
+      name
+    }
+    downstreamDatasources{
+      name
+      owner {
+        name
+      }
+      projectName
+      downstreamDashboards{
+        name
+        projectName
+      }
+    }
+    }
+  }
