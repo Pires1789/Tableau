@@ -1,0 +1,38 @@
+query calculations {
+  calculatedFields {
+    name
+    id
+    description
+    dataType
+    formula
+    referencedByCalculations {
+      name
+      formula
+    }
+    upstreamDatabases {
+      name
+    }
+    downstreamSheets {
+      name
+    }
+    downstreamDashboards{
+      name
+      luid
+      id
+    }
+    downstreamWorkbooks {
+      name
+      luid
+      projectName
+      tags {
+        name
+      }
+      upstreamDataQualityWarnings {
+        warningType
+        author {
+          username
+        }
+      }
+    }
+  }
+}
